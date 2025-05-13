@@ -48,5 +48,4 @@ COVID pandemic (from January 07, 2021 to February 12, 2021), offering rich infor
 
 ## 👤 Author
 
-Connie Lo (Carnegie Mellon University)
-Machine Learning in Problem Solving Course
+Connie Lo (Carnegie Mellon University), Machine Learning in Problem Solving Course
