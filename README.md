@@ -38,7 +38,7 @@ This project predicts U.S. county-level COVID test positivity and vaccine uptake
 1. Clone repo
 2. `pip install -r requirements.txt`
 3. Run notebooks in order
-4. Optionally explore clusters in `05_policy_analysis.ipynb`
+4. Explore clusters in `05_cluster_policy_analysis.ipynb`
 
 ## 🧾 Data Source
 
