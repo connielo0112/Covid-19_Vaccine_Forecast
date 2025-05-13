@@ -1,37 +1,20 @@
-# Jupyter notebook auto-saves
+# Ignore checkpoints and temporary notebook files
 .ipynb_checkpoints/
+*.ipynb~
 
-# VSCode and IDE settings
-.vscode/
-.idea/
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Python cache and environment
+# Ignore Python cache and compiled files
 __pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
+*.pyc
 
-# Virtual environments
-env/
-venv/
-.venv/
+# Ignore system files
+.DS_Store
 
-# Jupyter Notebook metadata
-*.nbconvert.ipynb
-
-# Logs
-*.log
-
-# Large raw or intermediate files
+# Ignore large raw or intermediate files
 data/*.csv
-!data/imputed_contextual_xgb_*.csv  # keep processed CSVs if you want
-!data/*.ipynb  # keep notebooks
 
-# Ignore the requirements backup
+# Keep only cleaned, contextual XGB-imputed CSVs
+!data/imputed_contextual_xgb_*.csv
+
+# Ignore environment or config backups
 requirements.txt~
+.env
